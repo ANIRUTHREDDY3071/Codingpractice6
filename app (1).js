@@ -89,3 +89,5 @@ app.put("/movies/:movieId/", async (request, response) => {
   await database.run(updatedQuery);
   response.send("Movie Details Updated");
 });
+
+module.exports=app;
